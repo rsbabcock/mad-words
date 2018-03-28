@@ -5,43 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css"
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Mad Words</title>
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-            <h1 class="title">Mad Words</h1>
+    <div class="main-content"></div>
+        <header class="title">
+            <h1>Mad Words</h1>
             <p>A fun app to make MAD sentences, plug in the words and you'll get a crazy sentence</p>
         </header>
-        <div class="form form-group">
-            <form>
-            <div>
-                <input class="form-item" id="name" placeholder="Name">
+                <form  class="form form-group">
+                    <div class="form-item">
+                        <input  class="form-control" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-item">
+                        <input class="form-control" id="verb1" placeholder="Traveling Verb">
+                    </div>
+                    <div class="form-item">
+                        <input class="form-control" id="location" placeholder="Location">
+                    </div>
+                    <div class="form-item">
+                        <input class="form-control" id="verb" placeholder="Action Verb">
+                    </div>
+                    <div class="form-item">    
+                        <input  class="form-control" id="adjective" placeholder="Adjective">
+                    </div>
+                    <div class="form-item">
+                        <input class="form-control" id="noun" placeholder="Noun">
+                    </div>
+                </form>
+            <div class="submit">
+                    <button type="button" class="form-submit form-control" id="form-submit">Get a MAD sentence</button>
             </div>
-            <div>
-                <input class="form-item" id="verb1" placeholder="Traveling Verb">
+            <div  class="mad-output" id="mad-output">
             </div>
-            <div>
-                <input class="form-item" id="location" placeholder="Location">
-            </div>
-            <div>
-                <input class="form-item" id="verb" placeholder="Action Verb">
-            </div>
-            <div>    
-                <input class="form-item" id="adjective" placeholder="Adjective">
-            </div>
-            <div>
-                <input class="form-item" id="noun" placeholder="Noun">
-            </div>
-            <div>
-                <button type="button" class="form-item form-submit" id="form-submit">Get a MAD sentence</button>
-            </div>
-        </form>
-        </div>
-        <div id="mad-output">
-            
-        </div>
         <footer class="footer">
             <p>&copy;Rachael Babcock</p>
             <p>Email me @ rachael.s.babcock@gmail.com</p>
