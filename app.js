@@ -4,11 +4,12 @@
 const madSentence = () => {
         //collect inputs into constants? probably let(s)
     let nameInput = $('#name').val();
+    let verbInput1 =$('#verb1').val();
     let locationInput = $('#location').val();
     let verbInput = $('#verb').val();
     let adjectiveInput = $('#adjective').val();
     let nounInput = $('#noun').val();
-    let HTMLstring = `<h2 id="output">${nameInput} ran into ${locationInput} and there ${verbInput} a ${adjectiveInput}${nounInput}</h2>`;
+    let HTMLstring = `<h2 id="output">${nameInput}${verbInput1} into ${locationInput} and there ${verbInput} a ${adjectiveInput}${nounInput}</h2>`;
     $('#mad-output').html(HTMLstring);
 };
 
