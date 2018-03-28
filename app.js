@@ -9,7 +9,7 @@ const madSentence = () => {
     let verbInput = $('#verb').val();
     let adjectiveInput = $('#adjective').val();
     let nounInput = $('#noun').val();
-    let HTMLstring = `<h2 id="output">${nameInput} ${verbInput1} into ${locationInput} and there ${verbInput} a ${adjectiveInput} ${nounInput}</h2>`;
+    let HTMLstring = `<h2 id="output">${nameInput} ${verbInput1} into ${locationInput} and there ${verbInput} ${adjectiveInput} ${nounInput}</h2>`;
     $('#mad-output').html(HTMLstring);
 };
 
