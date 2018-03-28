@@ -1,5 +1,8 @@
 body {
-    background-color: grey;
+    background: url('img/tinymap.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
 }
 
@@ -10,7 +13,7 @@ body {
 }
 
 .main-content {
-    display: flex;
+     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-evenly;
@@ -36,9 +39,12 @@ body {
 
 .mad-output {
     margin: 2%;
-    padding: 5%;
+    padding: 10% 10%;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 2px 2px .5px black;
 }
 
 .footer {
-    margin-top: auto;
+    margin: 20% 0% 0% 0%;
 }
