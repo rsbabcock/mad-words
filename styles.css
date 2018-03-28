@@ -2,6 +2,13 @@ body {
     background-color: grey;
     text-align: center;
 }
+
+.title{
+    background-color: whitesmoke;
+    margin: 0 0 10%;
+    padding: 5%;
+}
+
 .main-content {
     display: flex;
     flex-flow: column;
@@ -27,7 +34,10 @@ body {
 }
 
 .mad-output {
-    margin: 20% 20%;
+    margin: 5%;
+    padding: 20% 20%;
+    background-color:white;
+    border-radius: 10%;
 }
 
 .footer {
