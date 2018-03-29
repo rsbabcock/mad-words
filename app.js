@@ -8,7 +8,7 @@ const madSentence = () => {
     const randomNoun2 = descriptiveNouns[Math.floor(Math.random()*descriptiveNouns.length)];
     const verbs = ["turned", "pooped", "birthed", "magicked", "melted", "trampled", "fetched", "wrestled", "macerated", "chewed", "whispered", "scratched", "sewed", "buried", "break-danced", "jumped" ];
     const randomVerb = verbs[Math.floor(Math.random()*verbs.length)];
-     //collect inputs into constants? probably let(s)
+     //collect inputs into variables for HTMLstring to ouput
     let nameInput = $('#name').val();
     let verbInput1 =$('#verb1').val();
     let locationInput = $('#location').val();
@@ -19,19 +19,9 @@ const madSentence = () => {
     $('#mad-output').html(HTMLstring);
 };
 
-
-//     let HTMLstring = `<h2>${nameInput} ran into a ${locationInput} and there ${verbInput} into a ${adjectiveInput}${nounInput}<h2>`;
-//     $('#mad-output').html(HTMLstring);
-// };
-
+//jQuery click function makes the whole thing work
 $('#form-submit').click(madSentence);
+
+//this doesn't work yet
 $('form-submit').toggle();
-
-
-
-//empty div html
-/* <div id="mad-output">
-<h2 id="output"></h2>
-</div> */
-
 

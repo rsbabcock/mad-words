@@ -9,11 +9,14 @@
     <title>Mad Words</title>
 </head>
 <body>
+    <!-- Top of the page -->
     <header class="title">
         <h1>Mad Words</h1>
         <p>A fun app to make MAD sentences, plug in the words and you'll get a crazy sentence</p>
     </header>
+    <!-- Main content, with a wrapper, main-content which makes all form items and below (until footer) flex items -->
     <div class="main-content">
+        <!-- Form uses bootstrap form-group and form-control to give forms sleek look, have my own class for css styling -->
                 <form  class="form form-group">
                     <div class="form-item">
                         <input  class="form-control" id="name" placeholder="Name">
@@ -34,11 +37,14 @@
                         <input class="form-control" id="noun" placeholder="Noun">
                     </div>
                 </form>
+                <!-- submit button -->
             <div class="submit">
                     <button type="button" class="form-submit form-control" id="form-submit">Get a MAD sentence</button>
             </div>
+            <!-- ouput which is created by javascript dynamically -->
             <div  class="mad-output" id="mad-output">
             </div>
+            <!-- stupid footer, I can't really get it how I want it, but growth area for sure -->
         <div class="footer">
             <p>&copy;Rachael Babcock | rachael.s.babcock@gmail.com</p>
         </div>
