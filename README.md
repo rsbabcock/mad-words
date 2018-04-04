@@ -1,7 +1,7 @@
-Welcome to Mad Words! 
+# Welcome to Mad Words! 
 
-This is a fun app for making "MAD" sentences.
+##This is a fun app for making "MAD" sentences.
 
-Plug in the name, verb etc and you'll get a goofy sentence. 
+##Plug in the name, verb etc and you'll get a goofy sentence. 
 
-Have fun!
+#Have fun!
